@@ -161,9 +161,10 @@
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
+            /* justify-content: space-between; */
     margin-left: 139px;
     margin-right: 139px;
+    
 }
 .button2-block {
     width: 352px;
@@ -233,4 +234,7 @@
     margin-bottom: 15px;
     font-weight: bold;
     font-size: 18px;
+}
+.textarea-block {
+    margin-right: 16px;
 }
